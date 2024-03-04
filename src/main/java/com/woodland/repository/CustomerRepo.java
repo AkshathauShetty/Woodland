@@ -1,0 +1,15 @@
+package com.woodland.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.woodland.entity.Customer;
+
+@Repository
+public interface CustomerRepo extends JpaRepository<Customer, Long> {
+
+	//public Optional<Customer> findByPhone(String phone);
+	public Customer  findByPhone(String phone);
+}
