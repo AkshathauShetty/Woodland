@@ -1,0 +1,286 @@
+2024-02-13 09:18:15,275 DEBUG [RMI TCP Connection(567)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(567)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:18:15,308 DEBUG [RMI TCP Connection(567)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(567)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62728,localport=50388]
+2024-02-13 09:18:15,275 DEBUG [RMI TCP Connection(566)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(566)-127.0.0.1: (port 50384) connection closed
+2024-02-13 09:18:15,310 DEBUG [RMI TCP Connection(566)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(566)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62727,localport=50384]
+2024-02-13 09:18:15,310 DEBUG [RMI TCP Connection(567)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(567)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62728,localport=50388]
+2024-02-13 09:18:15,310 DEBUG [RMI TCP Connection(566)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(566)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62727,localport=50384]
+2024-02-13 09:18:23,138 WARN [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 804] -- HikariPool-16 - Thread starvation or clock leap detected (housekeeper delta=14h47m4s19ms367µs300ns).
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:390 ClientConnectionId: 1380a18e-bd52-4cd7-8ad3-51e0030fd634: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=1
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:385 ClientConnectionId: 43cedebf-e545-42b5-a08c-b14cf04cb297: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=2
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=2
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:391 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:388 ClientConnectionId: 3089a020-832e-40d1-b492-5273c6a5739a: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 335] -- HikariPool-16 - Add connection elided, waiting=0, adders pending/running=3
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:391 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:391 This attempt endtime: 1707796106888
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:391 This attempt No: 0
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:391 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:383 ClientConnectionId: 3631bac8-68af-4a61-b615-01f678544ebb: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:389 ClientConnectionId: 416a5780-c53c-45ad-bc74-1ed2dd0bb3a1: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:381 ClientConnectionId: a0a2b042-ab1f-4fe7-8dc9-ab798540f804: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:384 ClientConnectionId: 2dd51c7b-9af3-4b1c-9d09-91449158d94f: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:386 ClientConnectionId: 88f9a0e0-7a36-406d-bcce-4145201da12d: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:387 ClientConnectionId: 5e817131-39b3-48b5-a56e-2d4a722e4c1e: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection closer] c.z.h.p.PoolBase [PoolBase.java : 132] -- HikariPool-16 - Closing connection ConnectionID:382 ClientConnectionId: 8a3e4fe4-daf7-4fab-a910-6f743a0d538a: (connection has passed maxLifetime)
+2024-02-13 09:18:23,138 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:391 ClientConnectionId: 7f3e2fa3-5c6c-41b2-a9da-11cc0af099f2 Server returned major version:15
+2024-02-13 09:18:23,154 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,154 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,164 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:391 ClientConnectionId: 7f3e2fa3-5c6c-41b2-a9da-11cc0af099f2
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:392 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:392 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:392 This attempt endtime: 1707796106934
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:392 This attempt No: 0
+2024-02-13 09:18:23,184 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:392 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,186 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:392 ClientConnectionId: e77573ad-a692-4ea8-9e56-263c50957374 Server returned major version:15
+2024-02-13 09:18:23,189 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,197 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,200 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:392 ClientConnectionId: e77573ad-a692-4ea8-9e56-263c50957374
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:393 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:393 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:393 This attempt endtime: 1707796106965
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:393 This attempt No: 0
+2024-02-13 09:18:23,215 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:393 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,216 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:393 ClientConnectionId: f32abac1-f9a9-4d6f-bb65-35c6c20508a2 Server returned major version:15
+2024-02-13 09:18:23,220 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,226 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,229 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:393 ClientConnectionId: f32abac1-f9a9-4d6f-bb65-35c6c20508a2
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:394 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:394 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:394 This attempt endtime: 1707796106995
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:394 This attempt No: 0
+2024-02-13 09:18:23,245 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:394 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,292 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:394 ClientConnectionId: 7ea30635-f3e3-406c-a3e0-4bf651829fd8 Server returned major version:15
+2024-02-13 09:18:23,292 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,326 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,326 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:394 ClientConnectionId: 7ea30635-f3e3-406c-a3e0-4bf651829fd8
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:395 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:395 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:395 This attempt endtime: 1707796107105
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:395 This attempt No: 0
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:395 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:395 ClientConnectionId: 4fd02b2e-98c6-4867-ad18-65de783f25ce Server returned major version:15
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,355 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:395 ClientConnectionId: 4fd02b2e-98c6-4867-ad18-65de783f25ce
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:396 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:396 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:396 This attempt endtime: 1707796107136
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:396 This attempt No: 0
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:396 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:396 ClientConnectionId: 184b2380-0e63-4a01-95a6-592035da9d57 Server returned major version:15
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,386 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,402 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:396 ClientConnectionId: 184b2380-0e63-4a01-95a6-592035da9d57
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:397 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:397 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:397 This attempt endtime: 1707796107168
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:397 This attempt No: 0
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:397 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:397 ClientConnectionId: 405ee616-02ca-431b-9b1b-e5ffee076701 Server returned major version:15
+2024-02-13 09:18:23,418 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,426 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,426 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:397 ClientConnectionId: 405ee616-02ca-431b-9b1b-e5ffee076701
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:398 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:398 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:398 This attempt endtime: 1707796107199
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:398 This attempt No: 0
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:398 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:398 ClientConnectionId: e4e6a21a-0f3b-4521-8ae6-ac3ec1782302 Server returned major version:15
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,449 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:398 ClientConnectionId: e4e6a21a-0f3b-4521-8ae6-ac3ec1782302
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:399 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:399 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:399 This attempt endtime: 1707796107231
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:399 This attempt No: 0
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:399 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:399 ClientConnectionId: 5c7cbe2e-5fc8-46f5-8ead-08d45dd34f13 Server returned major version:15
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,481 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,496 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:399 ClientConnectionId: 5c7cbe2e-5fc8-46f5-8ead-08d45dd34f13
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.Driver [SQLServerDriver.java : 1227] -- Microsoft JDBC Driver 12.4.2.0 for SQL Server
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 307] -- Property:serverName Value:localhost
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:encrypt Value:true
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 394] -- Property:trustServerCertificate Value:true
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerDriver [Util.java : 514] -- Property:databaseName Value:WoodlandShoppingDb
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 1662] -- ConnectionID:400 created by (SQLServerDriver:1)
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3164] -- ConnectionID:400 This attempt server name: localhost port: 1433 InstanceName: null useParallel: false
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3167] -- ConnectionID:400 This attempt endtime: 1707796107262
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3168] -- ConnectionID:400 This attempt No: 0
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3505] -- ConnectionID:400 Connecting with server: localhost port: 1433 Timeout slice: 3750 Timeout Full: 30
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] c.m.s.j.i.SQLServerConnection [SQLServerConnection.java : 3892] -- ConnectionID:400 ClientConnectionId: c6fba12e-2873-48cd-9535-9fb9a23b6718 Server returned major version:15
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] -- X509Certificate: Alg:SHA256withRSA, Serial:1319984849fc89a94536b378f4e201f6, Subject:CN=SSL_Self_Signed_Fallback, Issuer:CN=SSL_Self_Signed_Fallback, Key type:RSA, Length:2048, Cert Id:1171469973, Valid from:2/5/24, 12:09 PM, Valid until:2/5/54, 12:09 PM
+2024-02-13 09:18:23,512 DEBUG [HikariPool-16 connection adder] j.e.security [LoggingProviderImpl.java : 274] --  TLSHandshake: localhost:1433, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 1171469973
+2024-02-13 09:18:23,526 DEBUG [HikariPool-16 connection adder] c.z.h.p.HikariPool [HikariPool.java : 738] -- HikariPool-16 - Added connection ConnectionID:400 ClientConnectionId: c6fba12e-2873-48cd-9535-9fb9a23b6718
+2024-02-13 09:18:43,045 DEBUG [Catalina-utility-2] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- Start expire sessions StandardManager at 1707796123045 sessioncount 0
+2024-02-13 09:18:43,045 DEBUG [Catalina-utility-2] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-02-13 09:18:53,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:18:53,138 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:19:00,912 DEBUG [RMI TCP Connection(568)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(568)-127.0.0.1: accepted socket from [127.0.0.1:56686]
+2024-02-13 09:19:00,912 DEBUG [RMI TCP Connection(568)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(568)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:19:00,912 DEBUG [RMI TCP Connection(568)-127.0.0.1] j.m.r.rmi [LoggingProviderImpl.java : 230] -- connectionId=rmi://127.0.0.1  11
+2024-02-13 09:19:15,932 DEBUG [RMI TCP Connection(568)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(568)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:19:15,932 DEBUG [RMI TCP Connection(568)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(568)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56686,localport=50388]
+2024-02-13 09:19:15,932 DEBUG [RMI TCP Connection(568)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(568)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56686,localport=50388]
+2024-02-13 09:19:23,153 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:19:23,153 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:19:43,120 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- Start expire sessions StandardManager at 1707796183120 sessioncount 0
+2024-02-13 09:19:43,120 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-02-13 09:19:53,172 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:19:53,172 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:20:00,917 DEBUG [RMI TCP Connection(569)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(569)-127.0.0.1: accepted socket from [127.0.0.1:56740]
+2024-02-13 09:20:00,917 DEBUG [RMI TCP Connection(569)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(569)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:20:00,917 DEBUG [RMI TCP Connection(569)-127.0.0.1] j.m.r.rmi [LoggingProviderImpl.java : 230] -- connectionId=rmi://127.0.0.1  11
+2024-02-13 09:20:15,938 DEBUG [RMI TCP Connection(569)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(569)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:20:15,938 DEBUG [RMI TCP Connection(569)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(569)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56740,localport=50388]
+2024-02-13 09:20:15,938 DEBUG [RMI TCP Connection(569)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(569)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56740,localport=50388]
+2024-02-13 09:20:23,182 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:20:23,182 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:20:43,206 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- Start expire sessions StandardManager at 1707796243206 sessioncount 0
+2024-02-13 09:20:43,206 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-02-13 09:20:53,199 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:20:53,199 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:21:00,937 DEBUG [RMI TCP Connection(570)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(570)-127.0.0.1: accepted socket from [127.0.0.1:56758]
+2024-02-13 09:21:00,937 DEBUG [RMI TCP Connection(570)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(570)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:21:00,937 DEBUG [RMI TCP Connection(570)-127.0.0.1] j.m.r.rmi [LoggingProviderImpl.java : 230] -- connectionId=rmi://127.0.0.1  11
+2024-02-13 09:21:15,954 DEBUG [RMI TCP Connection(570)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(570)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:21:15,954 DEBUG [RMI TCP Connection(570)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(570)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56758,localport=50388]
+2024-02-13 09:21:15,954 DEBUG [RMI TCP Connection(570)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(570)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56758,localport=50388]
+2024-02-13 09:21:23,208 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:21:23,208 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:21:43,269 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- Start expire sessions StandardManager at 1707796303269 sessioncount 0
+2024-02-13 09:21:43,269 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-02-13 09:21:53,215 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:21:53,215 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:22:00,951 DEBUG [RMI TCP Connection(571)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(571)-127.0.0.1: accepted socket from [127.0.0.1:56801]
+2024-02-13 09:22:00,952 DEBUG [RMI TCP Connection(571)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(571)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:22:00,952 DEBUG [RMI TCP Connection(571)-127.0.0.1] j.m.r.rmi [LoggingProviderImpl.java : 230] -- connectionId=rmi://127.0.0.1  11
+2024-02-13 09:22:15,953 DEBUG [RMI TCP Connection(571)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(571)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:22:15,955 DEBUG [RMI TCP Connection(571)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(571)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56801,localport=50388]
+2024-02-13 09:22:15,955 DEBUG [RMI TCP Connection(571)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(571)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56801,localport=50388]
+2024-02-13 09:22:23,224 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:22:23,224 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:22:43,325 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- Start expire sessions StandardManager at 1707796363325 sessioncount 0
+2024-02-13 09:22:43,325 DEBUG [Catalina-utility-1] o.a.c.s.ManagerBase [DirectJDKLog.java : 173] -- End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-02-13 09:22:53,225 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:22:53,225 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:23:00,271 DEBUG [RMI Scheduler(0)] s.rmi.dgc [Log.java : 228] -- RMI Scheduler(0): c08f13809e51de69:-2f65535:18d8c490139:-7fff
+2024-02-13 09:23:00,271 DEBUG [RMI Scheduler(0)] s.rmi.dgc [Log.java : 228] -- RMI Scheduler(0): removing endpoint c08f13809e51de69:-2f65535:18d8c490139:-7fff from reference set
+2024-02-13 09:23:00,271 DEBUG [RMI Scheduler(0)] s.rmi.dgc [Log.java : 228] -- RMI Scheduler(0): removing endpoint c08f13809e51de69:-2f65535:18d8c490139:-7fff from reference set
+2024-02-13 09:23:00,271 DEBUG [RMI Unreferenced-10] j.m.r.rmi [LoggingProviderImpl.java : 230] -- called
+2024-02-13 09:23:00,271 DEBUG [RMI Unreferenced-10] j.m.r.rmi [LoggingProviderImpl.java : 230] -- [javax.management.remote.rmi.RMIConnectionImpl@26f2035d: connectionId=rmi://127.0.0.1  11] closing.
+2024-02-13 09:23:00,271 DEBUG [RMI Unreferenced-10] j.m.r.rmi [LoggingProviderImpl.java : 230] -- [javax.management.remote.rmi.RMIConnectionImpl@26f2035d: connectionId=rmi://127.0.0.1  11] closed.
+2024-02-13 09:23:00,271 DEBUG [RMI Unreferenced-10] j.m.r.rmi [LoggingProviderImpl.java : 230] -- done
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: accepted socket from [127.0.0.1:56841]
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,271 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: (port 50388) op = 82
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.s.call [Log.java : 236] -- RMI TCP Connection(572)-127.0.0.1: [127.0.0.1] exception: 
+java.rmi.NoSuchObjectException: no such object in table
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:177)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: (port 50388) op = 112
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 236] -- RMI TCP Connection(572)-127.0.0.1: (port 50388) exception: 
+java.io.IOException: unknown transport op 112
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:604)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56841,localport=50388]
+2024-02-13 09:23:00,965 DEBUG [RMI TCP Connection(572)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(572)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56841,localport=50388]
+2024-02-13 09:23:00,969 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: accepted socket from [127.0.0.1:56842]
+2024-02-13 09:23:00,969 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: (port 50384) op = 80
+2024-02-13 09:23:00,969 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: (port 50384) op = 84
+2024-02-13 09:23:00,969 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: accepted socket from [127.0.0.1:56843]
+2024-02-13 09:23:00,969 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@55613401
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) op = 84
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:00,981 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "[Ljavax.management.ObjectName;", codebase = ""
+2024-02-13 09:23:00,997 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "[Ljava.rmi.MarshalledObject;", codebase = ""
+2024-02-13 09:23:00,997 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.loader [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: name = "[Ljavax.security.auth.Subject;", codebase = ""
+2024-02-13 09:23:00,997 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) op = 80
+2024-02-13 09:23:15,985 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: (port 50384) connection closed
+2024-02-13 09:23:15,985 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56842,localport=50384]
+2024-02-13 09:23:15,985 DEBUG [RMI TCP Connection(573)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(573)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56842,localport=50384]
+2024-02-13 09:23:23,230 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 414] -- HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-02-13 09:23:23,230 DEBUG [HikariPool-16 housekeeper] c.z.h.p.HikariPool [HikariPool.java : 521] -- HikariPool-16 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-02-13 09:23:30,297 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: (port 50388) connection closed
+2024-02-13 09:23:30,297 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=56843,localport=50388]
+2024-02-13 09:23:30,297 DEBUG [RMI TCP Connection(574)-127.0.0.1] s.r.t.tcp [Log.java : 228] -- RMI TCP Connection(574)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=56843,localport=50388]
