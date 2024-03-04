@@ -1,0 +1,120 @@
+.orderCheckout_container{
+    padding: 3%;
+    margin: 30px;
+}
+.orderCheckout_header{
+    text-align: start;
+    justify-content: start;
+    font-size:28px ;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+.orderCheckout_below{
+    text-align: start;
+    justify-content: start;
+    font-size:16px ;
+    font-weight: 400;
+    color: rgb(37,16,0);
+
+}
+.orderCheckout_shiiping_header{
+    text-align: start;
+    justify-content: start;
+    font-size:20px ;
+    font-weight: 600;
+    color: rgb(48,48,48);
+    /* above and below linw heights */
+    padding: 2% 1% 1% 1%;
+    /* line-height: 2; */
+}
+
+.orderdet_address_container{
+     margin: 0px;
+}
+/* .orderChk_input .profile_fields{
+   
+} */
+.profile_fields .profile_input{
+    height: 50px;
+    padding: 0pt 10px;
+    margin: 0px 0px 10px 0px;
+
+
+}
+
+.profile_fields input {
+    width: 100%;
+    background: #f4f4f4;
+    border: none;
+    padding: 3% 3% 3% 2%;
+    margin-top:2%;
+    margin-bottom: 1%;
+    font-size: 13px;
+}
+
+.order_check_box{
+    text-align: left;
+    justify-content: start;
+}
+
+.order_check_box .add_type_chekbox{
+
+    accent-color: rgb(59,111,68);
+    background-color: white;
+
+}
+.order_check_box .add_type_label{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.order_summary_header{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.order_summary_details{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(48, 48, 48);
+    line-height: 2;
+    
+}
+
+.order_summary_detailsname{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(48, 48, 48);
+    line-height: 1.5;
+    
+}
+
+.order_summary_detailsvalue{
+    text-align: right;
+    justify-content: end;
+    font-weight: 600;
+    
+}
+.orderdert_total{
+    text-align: left;
+    font-size: 18px;
+    font-weight:600;
+}
+.orderdert_totalvalue{
+    text-align: end;
+   
+}
+.orderdert_tasdet{
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+
+.order_error_message{
+    text-align: center;
+    font-size: 30px;
+    
+}

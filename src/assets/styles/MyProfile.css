@@ -1,0 +1,44 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+.justify-content-end .profile_buttons {
+    margin-left: 0;
+    font-family: sans-serif;
+    border:none;
+    color: white;
+    width: 100%;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -ms-border-radius:0px;
+    -o-border-radius:0px;
+};
+
+.justify-content-end .cancel_Button{
+    background-color:rgb(48,48,48) ;
+
+};
+
+.justify-content-end .save_Button{
+    background-color:rgb(59,111,68)
+
+};
+
+.profile_fields .profile_input{
+    width: 100%;
+    background: #f4f4f4;
+    border: none;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom:9%;
+}
+
+.profile_fields input {
+    width: 100%;
+    background: #f4f4f4;
+    border: none;
+    padding: 2%;
+    margin-top:2%;
+    margin-bottom: 9%;
+}

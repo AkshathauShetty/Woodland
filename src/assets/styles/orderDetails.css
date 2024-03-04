@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.order_details_container{
+    background-color: rgb(246, 246, 246);
+    margin: 20px 10px 20px 10px !important;
+    font-family: Raleway, sans-serif;
+    padding: 5px;
+   
+
+}
+
+.order_det_key{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    padding-left: 20px !important;
+    padding-bottom: 10px;
+
+}
+.order_det_value{
+    text-align: end;
+font-size: 14px;
+font-weight: 600;
+padding-right: 20px !important;
+}

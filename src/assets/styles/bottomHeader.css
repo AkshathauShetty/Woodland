@@ -1,0 +1,36 @@
+.div_container_header .bg-body-tertiary {
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 65.6px !important;
+    margin-bottom: 0px !important;
+}
+
+.div_container_header{
+    height: 65.6px !important;
+}
+
+/* .container_btm_header{
+    height: 65.6px;
+} */
+.navbar_bottomheader{
+    height: 65.6px;
+    padding-left: 10px;
+}
+
+.navbar .container_btm_header .btmheader_categories_nav{
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+    top: 25px ;
+}
+
+.flex-grow-1 .nav-sidebars{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    min-width: 64px;
+}
+
+.flex-grow-1 .nav-sidebars:hover{
+   background-color:  rgba(25, 118, 210, 0.04);
+}

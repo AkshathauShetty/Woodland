@@ -1,0 +1,33 @@
+
+.addres_holder{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 16px;
+    width: 250px;
+    margin-top: 10px; 
+}
+
+.address_top{
+    line-height: 1.5;
+    font-weight: 500;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    padding-bottom: 10px;
+}
+
+.address_type{
+    color: white;
+    background-color:rgb(59,111,68) ;
+    margin-left: 2px;
+    text-align: center;
+}
+.address_top .address_edit{
+    color: rgb(59,111,68);
+    justify-content: end; 
+    text-align: end;
+    cursor: pointer;
+}
+
+.addressRemove{
+    text-align: end !important;
+    color: rgb(175, 175, 175) !important;
+}

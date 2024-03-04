@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,400;1,100&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    font-family:'Inter',sans-serif;
+}
+
+.myorder-header-name{
+    color:rgb(48,48,48);
+    font-size: 28px;
+    font-family:'Inter',sans-serif;
+    text-align: left;
+}
+
+.myorder-welcome{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.myorder-content{
+    padding: 1% 4%;
+    text-align: left;
+}
+
+.myorder-navigate{
+    font-size: 14px;
+    margin-bottom: 4%;
+    
+}
+
+.myorder-navigate p{
+    margin-bottom: 15%;   
+}
+
+.myorder-navigate .myorder-navigate-col{
+    margin-bottom: 5% 
+}
+
+
+
+.myorder-navigate p::selection {
+    text-decoration: underline;
+    color: green;
+    text-underline-offset: 8px;
+  }
+
+.myorder-navigate p:hover{
+    cursor: pointer;
+  }
+.myorder-navigate p:active{
+    text-decoration: underline;
+    color: green;
+    text-underline-offset: 8px;
+  }

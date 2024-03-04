@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+
+
+.d-inline #dropdown-autoclose-true {
+    background-color: white;
+    border-color: #3b6f44;
+    color: #3b6f44;
+    border: 1px solid black;
+    border-radius: unset;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: small;
+  
+}
+
+.browse_filter_col{
+    padding-right: 2px;
+}
+
+.d-inline .browse_filter_dropdown{
+    height: 200px;
+    color: #3b6f44;
+    overflow-y: scroll;
+    --bs-dropdown-min-width: 6rem
+}
+
+.d-inline .browse_filter_dropdown .dropdown-item{
+    color: #3b6f44;
+}
+.route_path{
+    font-family: Raleway;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.prod_cat_name{
+    color: #3b6f44;
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: left;
+    padding-right: 5%;
+}
+.prod_cat_desc{
+    text-align: left;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    color: #232323;
+    width: 50%;
+}
+.cat_quote_container{
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 2%;
+}

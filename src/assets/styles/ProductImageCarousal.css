@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto&display=swap');
+.thumbs .thumb .img{
+height: 40px;
+width: 40px;
+}
+
+.slider-wrapper .slider .slide .slider_div .img{
+    padding-top: 30px;
+    height: 230px;
+    width: 200px;
+}
+
+.carousel.carousel-slider .control-arrow:hover{
+    background:none !important;
+    color : black !important;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before{
+    margin: 0 20px !important;
+    border:0px !important;
+    content: url('https://www.woodlandworldwide.com/images/plp/next-arrow.png') !important;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-prev:before{
+    margin: 0 20px !important;
+    border:0px !important;
+    content: url('https://www.woodlandworldwide.com/images/plp/prev-arrow.png') !important;
+}
+
+.carousel .thumbs-wrapper{
+    margin:5px 0px 1px 0px!important;
+}
+
+.carousel .thumbs {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+
+.carousel .thumb:hover {
+    border: none !important;
+}
+
+.carousel .thumb.selected {
+    border: 1px solid grey !important;
+}
+
+.carousel .control-prev.control-arrow {
+    left: 0 !important;
+}
+
+.carousel_offer_top{
+    background-color: #a31010;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 3px 6px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.carousel_best_seller_bottom{
+    background-color: #3b6f44;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    /* bottom: 5px; */
+    top:230px;
+    left: 10px;
+    padding: 3px 6px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.slider_div{
+    background-color: #e0e0e0;
+    height:268px;
+}

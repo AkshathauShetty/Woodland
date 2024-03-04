@@ -1,0 +1,30 @@
+
+
+
+.labsmodal_row .labsmodal_header {
+    justify-content: left;
+    padding-left: 25px !important;
+    border: 1px solid #3b6f44 !important;
+}
+.modal-content{
+    border: 2px solid #3b6f44 !important;
+    color:  #3b6f44 !important;
+}
+
+.modal-dialog .modal-content .modal-header{
+    padding-left: 30px !important;
+    text-align: left;
+}
+.labsmodal_container .labsmodal_title{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.labsmodal_headerlink{
+    text-align: right
+}
+
+.labsmodal_footer{
+    justify-content: center !important;
+    cursor: pointer;
+}
